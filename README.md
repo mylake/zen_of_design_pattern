@@ -22,3 +22,8 @@
 1. Clients should not be forced to depened upon interfaces that don't use
 2. The dependency of one class to another one should depend on the smallest possible interface
 3. build single interface, and the method in the interface should be as the less the better. => As much as possible use specific interface to responsible specific feature
+
+## chapter 5 Law of Demeter, LoD, Least Knowledge Principle, LKP
+1. Only talk to your immediate friends
+2. The less public method the better
+3. if one class need to contact other class by over two redirections => need refactor
