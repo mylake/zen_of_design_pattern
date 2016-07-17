@@ -17,3 +17,8 @@
 
 ## chapter 3 Dependence Inversion Principle, DIP
 1. High level modules should not depend upon low level modules. Both should depend upon abstractions. Abstractions should not depend upon details. Details should depend upon abstractions
+
+## chapter 4 Interface Segregation Principle, ISP
+1. Clients should not be forced to depened upon interfaces that don't use
+2. The dependency of one class to another one should depend on the smallest possible interface
+3. build single interface, and the method in the interface should be as the less the better. => As much as possible use specific interface to responsible specific feature
