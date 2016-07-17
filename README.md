@@ -1,7 +1,9 @@
 # zen of design pattern
 
-------------------------------
+
+---
 # six design principle
+---
 
 ## chapter 1 single responsibility principle, SRP
 1. interface need to be SRP, and class design as much as possible make it only will changed by one reason
@@ -35,4 +37,10 @@
 2. when need to have some change, use enlargation to replace modification
 
 
+---
 # 23 design pattern
+---
+
+## chapter 7 Singleton Pattern
+1. Ensure a class has only one instance, and provide a global point of access to it
+2. 
