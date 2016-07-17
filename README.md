@@ -1,6 +1,8 @@
 # zen of design pattern
 
 ------------------------------
+# six design principle
+
 ## chapter 1 single responsibility principle, SRP
 1. interface need to be SRP, and class design as much as possible make it only will changed by one reason
 
@@ -27,3 +29,10 @@
 1. Only talk to your immediate friends
 2. The less public method the better
 3. if one class need to contact other class by over two redirections => need refactor
+
+## chapter 6 Open Closed Principle, OCP
+1. Software entities like classes, modules and functions should be open for extension but closed for modifications
+2. when need to have some change, use enlargation to replace modification
+
+
+# 23 design pattern
