@@ -1,8 +1,8 @@
 # zen of design pattern
-
+# design patterns in Ruby as code sample
 
 ---
-# six design principle
+## *six design principle
 ---
 
 ## chapter 1 single responsibility principle, SRP
@@ -38,9 +38,13 @@
 
 
 ---
-# 23 design pattern
+## *23 design pattern
 ---
 
 ## chapter 7 Singleton Pattern
 1. Ensure a class has only one instance, and provide a global point of access to it
-2. 
+
+## chapter 8 Factory Pattern
+1. Define an interface for creating an object, but let subclasses decide which class to instantiate. Factory Method lets a class defer instantiation to subclasses
+
+## chapter 9 
