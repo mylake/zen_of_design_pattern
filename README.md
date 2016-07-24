@@ -52,3 +52,12 @@
 
 ## chapter 10 Template Method Pattern
 1. Define the skeleton of an algorithm in an operation, deferring some steps to subclass. Template Method lets subclasses redefine certain steps of an algorithm without changing the algorithm's structure
+2. Define an abstract base class with a master method that performs the basic steps listed above, but that leaves the details of each step to a subclass
+
+## chapter 11 Builder Pattern
+
+### usage scenario
+1. same method, different execute sequence, will create different result
+2. many components, can be equipmented to one object, but the execute result are different
+3. Product categories are very complex or the execute sequence will have different result
+4. Builder Pattern focus on the component and equipmented sequence, the main different between the Factory Pattern 
