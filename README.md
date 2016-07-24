@@ -47,4 +47,8 @@
 ## chapter 8 Factory Pattern
 1. Define an interface for creating an object, but let subclasses decide which class to instantiate. Factory Method lets a class defer instantiation to subclasses
 
-## chapter 9 
+## chapter 9 Abstract Factory Pattern
+1. Provide an interface for creating families of related or dependent objects without specifying their concrete classes
+
+## chapter 10 Template Method Pattern
+1. Define the skeleton of an algorithm in an operation, deferring some steps to subclass. Template Method lets subclasses redefine certain steps of an algorithm without changing the algorithm's structure
