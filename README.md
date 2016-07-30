@@ -64,3 +64,6 @@
 
 ## chapter 12 Proxy Pattern
 1. Provide a surrogate or placeholder for another object to control access to it 
+
+## chapter 13 Prototype Pattern
+1. Specify the kinds of objects to create using a prototypical instance, and create new objects by copying this prototype
