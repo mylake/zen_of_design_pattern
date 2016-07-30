@@ -55,9 +55,12 @@
 2. Define an abstract base class with a master method that performs the basic steps listed above, but that leaves the details of each step to a subclass
 
 ## chapter 11 Builder Pattern
-
+1. Separate the construction of a complex object from its representation so that the same construction process can create different representations
 ### usage scenario
 1. same method, different execute sequence, will create different result
 2. many components, can be equipmented to one object, but the execute result are different
 3. Product categories are very complex or the execute sequence will have different result
-4. Builder Pattern focus on the component and equipmented sequence, the main different between the Factory Pattern 
+4. Builder Pattern focus on the component and equipmented sequence, the main different between the Factory Pattern
+
+## chapter 12 Proxy Pattern
+1. Provide a surrogate or placeholder for another object to control access to it 
